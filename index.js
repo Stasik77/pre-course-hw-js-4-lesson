@@ -5,7 +5,7 @@ let timerId; // переменная, которая будет хранить I
 const startButton = document.getElementById('start');
 startButton.addEventListener('dblclick', function () {
     // НУЖНО ПОГУГЛИТЬ ЧТО ТАКОЕ setInterval
-    timerId = setInterval(updateClock, 1000); // запускаем  updateClock() каждую секунду
+    timerId = setInterval(updateClock, 4000); // запускаем  updateClock() каждую секунду
 });
 
 
